@@ -1,10 +1,14 @@
 fileFormatVersion: 2
 guid: 38884fe5542bc444594543fd52975b32
-timeCreated: 1487663727
+timeCreated: 1488369813
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sprite_ingame_bg_player
+    21300000: sprite_mainboard
+    21300002: sprite_block_00
+    21300004: sprite_block_01
+    21300006: sprite_weapon_00_00
+    21300008: sprite_weapon_00_01
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -28,7 +32,7 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapMode: 1
@@ -69,12 +73,12 @@ TextureImporter:
     overridden: 0
   - buildTarget: Android
     maxTextureSize: 2048
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
-    compressionQuality: 50
+    compressionQuality: 100
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
   - buildTarget: Windows Store Apps
     maxTextureSize: 2048
     textureFormat: -1
@@ -95,13 +99,65 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_ingame_bg_player
+      name: sprite_mainboard
       rect:
         serializedVersion: 2
         x: 0
-        y: 954
+        y: 304
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_block_00
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 952
         width: 70
-        height: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_block_01
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 952
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_weapon_00_00
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1011
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sprite_weapon_00_01
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 997
+        width: 13
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
